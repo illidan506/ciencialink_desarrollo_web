@@ -1,0 +1,9 @@
+header {
+    background-color: orangered;
+    color: white;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
