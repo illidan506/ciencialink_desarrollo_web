@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<header>
+    <div class="conteiner">
+        <div class="row">
+            <div class="col bg-primary text-white">
+                <h1 class="text-center fs-1">Pagina Bootstrap</h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div id="miCarrusel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://i.ebayimg.com/images/g/oaQAAOSwbBFlXdMd/s-l1200.jpg"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://s.alicdn.com/@sc04/kf/H6209fd35e7c64ad89d158b9de5fc0e00F/Wholesale-Motor-Part-3RZ-Engine-3RZ-FE-Long-Block-Assembly-for-Toyota-Hilux-Tacoma-4-Runner-2.7L.png_300x300.jpg"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://mymotorlist.com/wp-content/uploads/2021/07/nissan-vq40de.jpg"
+                                class="d-block w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#miCarrusel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#miCarrusel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="accordion" id="acordeonEjemplo">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#seccion1">
+                                Imagen 1: Motor QR25
+                            </button>
+                        </h2>
+                        <div id="seccion1" class="accordion-collapse collapse show" data-bs-parent="#acordeonEjemplo">
+                            <div class="accordion-body">
+                                <p>Motor de 4 cilindros en línea y 2.5 litros fabricado por Nissan. Utiliza tecnología
+                                    DOHC con 16 válvulas y sistema de tiempo variable de válvulas (CVTC). Es conocido
+                                    por su buena potencia y eficiencia de combustible, y se usa en vehículos como el
+                                    Nissan X‑Trail y Nissan Altima.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#seccion2">
+                                Imagen 2: Motor 3RZ
+                            </button>
+                        </h2>
+                        <div id="seccion2" class="accordion-collapse collapse" data-bs-parent="#acordeonEjemplo">
+                            <div class="accordion-body">
+                                <p>Motor 4 cilindros en línea de 2.7 litros producido por Toyota. Tiene 16 válvulas DOHC
+                                    y es reconocido por su gran durabilidad y torque, ideal para camionetas y trabajo
+                                    pesado.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#seccion3">
+                                Imagen 3: Motor VQ40
+                            </button>
+                        </h2>
+                        <div id="seccion3" class="accordion-collapse collapse" data-bs-parent="#acordeonEjemplo">
+                            <div class="accordion-body">
+                                <p>Motor V6 de 4.0 litros también fabricado por Nissan. Tiene 24 válvulas DOHC y sistema
+                                    de tiempo variable de válvulas, ofreciendo mayor potencia y torque que los motores
+                                    de 4 cilindros. Se usa en camionetas como la Nissan Frontier y el Nissan Xterra.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
