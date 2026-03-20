@@ -39,86 +39,167 @@
             </div>
         </div>
     </header>
-    <section class="carrusel">
-        <div class="carrusel-container">
-            <div id="carouselRamy" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselRamy" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Promo 1"></button>
-                    <button type="button" data-bs-target="#carouselRamy" data-bs-slide-to="1"
-                        aria-label="Promo 2"></button>
-                    <button type="button" data-bs-target="#carouselRamy" data-bs-slide-to="2"
-                        aria-label="Promo 3"></button>
-                    <button type="button" data-bs-target="#carouselRamy" data-bs-slide-to="3"
-                        aria-label="Promo 4"></button>
-                    <button type="button" data-bs-target="#carouselRamy" data-bs-slide-to="4"
-                        aria-label="Promo 5"></button>
+    <main>
+        <section class="carrusel">
+            <div class="carrusel-container">
+                <div id="carouselRamy" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselRamy" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Promo 1"></button>
+                        <button type="button" data-bs-target="#carouselRamy" data-bs-slide-to="1"
+                            aria-label="Promo 2"></button>
+                        <button type="button" data-bs-target="#carouselRamy" data-bs-slide-to="2"
+                            aria-label="Promo 3"></button>
+                        <button type="button" data-bs-target="#carouselRamy" data-bs-slide-to="3"
+                            aria-label="Promo 4"></button>
+                        <button type="button" data-bs-target="#carouselRamy" data-bs-slide-to="4"
+                            aria-label="Promo 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/promo1.jpeg" alt="Promoción 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/promo2.jpeg" alt="Promoción 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/promo3.jpeg" alt="Promoción 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/promo4.jpeg" alt="Promoción 4">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/promo5.jpeg" alt="Promoción 5">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselRamy"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselRamy"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="img/promo1.jpeg" alt="Promoción 1">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/promo2.jpeg" alt="Promoción 2">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/promo3.jpeg" alt="Promoción 3">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/promo4.jpeg" alt="Promoción 4">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/promo5.jpeg" alt="Promoción 5">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselRamy" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselRamy" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Siguiente</span>
-                </button>
             </div>
-        </div>
-    </section>
-    <section id="quienes_somos">
-        <h2>Quienes Somos</h2>
-        <p>Somos una Importadora de Motores dedicada a ofrecer un catalogo amplio de motores y autopartes</p>
-    </section>
-    <section id="productos">
-        <h3>Productos</h3>
-        <h4>Motores</h4>
-        <ul>
-            <li>Toyota</li>
-            <li>Nissan</li>
-            <li>Mitsubishi</li>
-            <li>Suzuki</li>
-            <li>Chevrolet</li>
-        </ul>
-    </section>
-    <section id="servicios">
-        <h3>Servicios</h3>
-        <ul>
-            <li>Cambio de Motores</li>
-            <li>Cambio de Aceite</li>
-            <li>Adaptaciones de Motores</li>
-            <li>Afinado de Motores</li>
-            <li>Reparacion en General</li>
-        </ul>
-    </section>
+        </section>
+        <section id="productos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card">
+                            <img src="img/motor1.jpg" class="card-img-top" alt="Imagen">
+                            <div class="card-body">
+                                <h5 class="card-title">Motor Toyota</h5>
+                                <p class="card-text">Tipo: Inline-4, gasolina</br>Estado: Medio uso, limpio, sin
+                                    desgaste visible</br>
+                                    Características: Incluye tapa de válvulas con el logo Toyota, colector de admisión
+                                    negro, alternador, correas y mangueras visibles</br>
+                                    Modelo: Dependiendo del año puede ser 1ZZ-FE o 2ZZ-GE</br>
+                                    Autos compatibles: Toyota Corolla, Toyota Celica, Toyota Matrix.</p>
+                                <a href="https://wa.me/59174904856?text=Hola,%20quiero%20más%20información%20sobre%20sus%20motores"
+                                    target="_blank" class="btn btn-primary">Consultar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <img src="img/motor2.jpg" class="card-img-top" alt="Imagen">
+                            <div class="card-body">
+                                <h5 class="card-title">Motor Nissan</h5>
+                                <p class="card-text">Tipo: Inline-4, 2.0 litros, gasolina.<br>
+                                    Estado: Medio uso, limpio, sin marcas de desgaste importantes.<br>
+                                    Características: Tapa de válvulas de aluminio con grabado “NISSAN”, mangueras y
+                                    cableado bien visibles, correa serpentina.<br>
+                                    Modelo: QR20DE.<br>
+                                    Autos compatibles: Nissan X-Trail T30, Nissan Primera P12, Nissan Almera N16, Nissan
+                                    Bluebird Sylphy.<br></p>
+                                <a href="https://wa.me/59174904856?text=Hola,%20quiero%20más%20información%20sobre%20sus%20motores"
+                                    target="_blank" class="btn btn-primary">Consultar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <img src="img/motor3.jpg" class="card-img-top" alt="Imagen">
+                            <div class="card-body">
+                                <h5 class="card-title">Motor Susuki</h5>
+                                <p class="card-text">Motor Suzuki 4 cilindros (medio uso, buen estado)
+                                    Tipo: Inline-4, gasolina.<br>
+                                    Estado: Medio uso, limpio, sin desgaste visible.<br>
+                                    Características: Tapa de válvulas con grabado “SUZUKI”, colector de admisión,
+                                    mangueras y sistema de poleas visibles.<br>
+                                    Modelo: M16A o J20A.<br>
+                                    Autos compatibles: Suzuki Vitara, Suzuki Grand Vitara
+                                    <a href="https://wa.me/59174904856?text=Hola,%20quiero%20más%20información%20sobre%20sus%20motores"
+                                        target="_blank" class="btn btn-primary">Consultar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <img src="img/motor4.jpg" class="card-img-top" alt="Imagen">
+                            <div class="card-body">
+                                <h5 class="card-title">Motor Mitsubishi</h5>
+                                <p class="card-text">Motor Mitsubishi 4 cilindros (medio uso, buen estado)
+                                    Tipo: Inline-4, gasolina.<br>
+                                    Estado: Medio uso, limpio, sin desgaste visible.<br>
+                                    Características: Tapa de válvulas con logo “MITSUBISHI”, sistema de admisión,
+                                    mangueras y poleas visibles.<br>
+                                    Modelo: 4G63 o 4B11.<br>
+                                    Autos compatibles: Mitsubishi Lancer, Mitsubishi Outlander.
+                                    <a href="https://wa.me/59174904856?text=Hola,%20quiero%20más%20información%20sobre%20sus%20motores"
+                                        target="_blank" class="btn btn-primary">Consultar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="servicios">
+            <div class="container">
+                <h3>Servicios</h3>
+                <ul>
+                    <li>Cambio de Motores</li>
+                    <li>Cambio de Aceite</li>
+                    <li>Adaptaciones de Motores</li>
+                    <li>Afinado de Motores</li>
+                    <li>Reparacion en General</li>
+                </ul>
+            </div>
+        </section>
+        <section id="quienes_somos">
+            <h3>Quienes Somos</h3>
+            <p>Somos una Importadora de Motores dedicada a ofrecer un catalogo amplio de motores y autopartes</p>
+        </section>
+    </main>
     <footer>
-        <section id="ubicacion">
-            <h3>Ubicacion</h3>
-            Avenida Civica: a 8 Cuadras de Cruce Achocalla</br>
-            La Paz-Bolivia</br>
-        </section>
-        <section id="contactos">
-            <h3>Contactos</h3>
-            Email: illidan506@gmail.com</br>
-            Telefonos: 74904856-63079445</br>
-        </section>
-    </footer>
+<footer class="footer">
+    <div class="footer-left">
+        <h3>Ubicación</h3>
+        <p>
+            Avenida Cívica: a 8 cuadras de Cruce Achocalla<br>
+            La Paz - Bolivia
+        </p>
+
+        <h3>Contactos</h3>
+        <p>
+            Email: <a href="mailto:illidan506@gmail.com">illidan506@gmail.com</a><br>
+            Teléfonos: <a href="tel:74904856">74904856</a> - <a href="tel:63079445">63079445</a>
+        </p>
+    </div>
+    <div class="footer-right">
+        <h3>Síguenos</h3>
+        <div class="redes">
+            <a href="#" target="_blank">🌐 Facebook</a>
+            <a href="#" target="_blank">🎵 TikTok</a>
+            <a href="#" target="_blank">📸 Instagram</a>
+        </div>
+    </div>
+</footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
